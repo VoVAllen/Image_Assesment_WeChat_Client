@@ -1,0 +1,12 @@
+/**index.wxss**/
+.image_placeholder {
+  width: 600rpx;
+  height: 600rpx;
+  display: flex;
+  align-items: center;
+}
+
+.upload_btn {
+  margin-top: 125rpx;
+  width: 400rpx;
+}

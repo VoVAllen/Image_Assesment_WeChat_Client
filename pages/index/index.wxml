@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class='main'>
+  <view class="container" style='padding: 400rpx 0;'>
+    <view class="userinfo">
+
+      <view class='hint'>
+        <text>提示：每张照片满分为10分。通常以5分为分界线衡量图像美学好坏。</text>
+      </view>
+      <button wx:if="{{showButton}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='deecamp' style='width:400rpx'> 开启神秘之旅 </button>
+      <block wx:else>
+        <image class="userinfo-avatar" bindtap="goToUpload" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname" bindtap="goToUpload">{{userInfo.nickName}}</text>
+      </block>
+    </view>
+    <view class="usermotto">
+      <!-- <button class='deecamp' style='width:400rpx' bindtap='goToUpload'>开启神秘之旅</button> -->
+    </view>
+  </view>
+</view>

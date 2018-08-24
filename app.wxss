@@ -1,0 +1,26 @@
+/**app.wxss**/
+.container {
+  /* height: 100%; */
+  display: flex;
+  padding-top:400rpx;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+
+.deecamp{
+  background-color: orange;
+  color: white;
+    align-items: center;
+}
+
+.main{
+  background-image: url('http://server.cn-bj.ufileos.com/bg.jpg');
+  background-size: 100% 100%;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+
+  /* height: 100%; */
+}

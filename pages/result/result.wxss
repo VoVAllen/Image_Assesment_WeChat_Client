@@ -1,0 +1,67 @@
+/* pages/result/result.wxss */
+
+.upload_btn {
+  margin-top: 50rpx;
+  width: 400rpx;
+}
+
+.text_container {
+  width: 600rpx;
+  /* margin-top: 100rpx; */
+  font-size: 30;
+  height: 600rpx;
+  display: flex;
+  background-color: gray;
+  align-items: center;
+  /* opacity: 0.7; */
+  justify-content: center;
+  /* box-shadow: 6rpx 6rpx 6rpx 6rpx rgb(55, 122, 209) */
+}
+
+
+.score_text {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  margin-top: 40rpx;
+  color: white;
+}
+
+.s_text {
+  display: flex;
+  color: white;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  padding-top:20rpx
+}
+
+.relative {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.pic_background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.tt_container {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  color: #222;
+  font-size: 30rpx;
+  position: absolute;
+  font-weight: 900;
+  font-family: "幼圆", "方正姚体", Geneva, "Times New Roman";
+}
+
+
